@@ -1,0 +1,79 @@
+Here is one way to restructure and reformat the CSS to look more professional:
+
+```css
+/* Add some spacing and structure with comments */
+
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Header */
+
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  padding: 20px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #111;
+  color: #fff;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 30px 20px;
+  box-sizing: border-box;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-icon {
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.9;  
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.5s;
+}
+
+.footer-social-icon i {
+  color: #111;
+  font-size: 1em;
+  opacity: 0.9;
+  transition: color 0.5s;
+}
+
+.footer-social-icon:hover {
+  background-color: #111;
+}
+
+.footer-social-icon:hover i {
+  color: #fff;
+}
+
+/* Consistent naming, spacing, formatting */
+
+```
+
